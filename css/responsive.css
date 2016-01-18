@@ -1,0 +1,84 @@
+/*responsive*/
+@media only screen and (max-width: 767px) {
+.well{padding-bottom: 60px;  padding-top: 60px;}
+.well2{padding-bottom: 60px;  padding-top: 60px;}
+.well3{padding-bottom: 60px;  padding-top: 60px;}
+.well4{padding-bottom: 60px;  padding-top: 60px;}
+header .brand_name img { width: 100%;}
+.brand_name {  margin-top: 0;}
+header { padding-bottom: 60px; padding-top: 20px;}
+header * + h2 { margin-top: 20px;}
+h2 {font-size: 35px; line-height: 50px;}
+* + .row { margin-top: 40px;}
+nav#menu { margin-top: 10px;}
+/* Navigation select styling */
+.select-menu {
+  border: 1px solid #c8c8c8;
+  background-color: #e4e4e4;
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.select-menu:focus {
+  border-color: #999;
+}
+.select-menu option {
+  padding: 5px;
+  cursor: pointer;
+}
+.select-menu option.main_item {
+  font-weight: bold;
+}
+#menu .sub-menu{display:none;}
+h6 {font-size: 22px; line-height: 30px;}
+.grid-item--width2 { box-sizing: border-box; margin-left: 0;  margin-right: 0;  width: 92%;}
+.grid-item { box-sizing: border-box; margin-left: 0;  margin-right: 0;  width: 92%;height: auto;}
+h4 { font-size: 50px; line-height: 55px;}
+.mailform .button.trans{margin-top: 20px;}
+footer .brand_name { margin-top: 30px;}
+.toTop{display:none!important;}
+.well2 .portfolio-box::before{width:100%;}
+.portfolio-box > img { width: 100%;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+h2 { font-size: 60px;  line-height: 75px;}
+header { padding-bottom: 110px; padding-top: 35px;}
+header * + h2 { margin-top: 85px;}
+nav#menu { margin-top: 20px;}
+.well{padding-bottom: 110px;  padding-top: 110px;}
+.well2{padding-bottom: 110px;  padding-top: 110px;}
+.well3{padding-bottom: 110px;  padding-top: 110px;}
+.well4{padding-bottom: 110px;  padding-top: 110px;}
+h6 { font-size: 20px;    line-height: 25px;}
+.price2{  font-size: 30px;  right: 30px;  top: 0;}
+.price3{  font-size: 30px;  right: 30px;  top: 0;}
+.price2::after {  font-size: 25px;  right: 35px;  top: 3px;}
+.price3::after{font-size: 25px;  right: 50px;  top: 3px;}
+.grid-item{ height: 210px;width: 210px;}
+.grid-item--width2 {  width: 440px;}
+.grid-item--height2 { height: 430px;}
+.tt_logo{top:15px;}
+.tf_logo{ position: relative; top: 10px;}
+.well2 .portfolio-container{width:200px;}
+
+}
+@media only screen and (min-width: 996px) and (max-width:1200px ){
+
+
+}
+
+
+
+
+
+
